@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Birulo.AbsoluteLayoutDemo"
+             Title="AbsoluteLayoutDemo"
+             BackgroundColor="Red"
+             >
+    <AbsoluteLayout>
+        <Button
+            Text="Click-Me Btn1"
+            AbsoluteLayout.LayoutBounds="0,300,250,.50"
+            AbsoluteLayout.LayoutFlags="HeightProportional"
+            
+            ></Button>
+        <Button
+            Text="Click-Me Btn2"
+            
+            ></Button>
+    </AbsoluteLayout>
+</ContentPage>

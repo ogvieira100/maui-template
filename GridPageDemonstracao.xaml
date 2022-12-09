@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Birulo.GridPageDemonstracao"
+             Title="GridPageDemonstracao">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <!--linha 1-->
+        <Button
+                       Grid.Row="1"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="3" 
+                       x:Name="Painel"
+                       HeightRequest="200"
+                       Text="Painel"
+           
+                 />
+        <!--fim linha 1-->
+
+        <!--linha 2-->
+        <Button
+                       Grid.Row="2"
+                       Grid.Column="0"
+                       x:Name="Btnlinha20"
+                       HeightRequest="50"
+                       Text="Btnlinha2-0"
+           
+                 />
+        <Button
+                       Grid.Row="2"
+                       Grid.Column="1"
+                       x:Name="Btnlinha21"
+                       HeightRequest="50"
+                       Text="Btnlinha2-1"
+           
+                 />
+        <Button
+                       Grid.Row="2"
+                       Grid.Column="2"
+                       x:Name="Btnlinha22"
+                       HeightRequest="50"
+                       Text="Btnlinha2-2"
+           
+                 />
+        <!--fim linha 2-->
+
+        <!--linha 3-->
+        <Button
+                       Grid.Row="3"
+                       Grid.Column="0"
+                       x:Name="Btnlinha30"
+                       HeightRequest="50"
+                       Text="Btnlinha3-0"
+           
+                 />
+        <Button
+                       Grid.Row="3"
+                       Grid.Column="1"
+                       x:Name="Btnlinha31"
+                       HeightRequest="50"
+                       Text="Btnlinha3-1"
+           
+                 />
+        <Button
+                       Grid.Row="3"
+                       Grid.Column="2"
+                       x:Name="Btnlinha32"
+                       HeightRequest="50"
+                       Text="Btnlinha3-2"
+           
+                 />
+        <!--fim linha 3-->
+
+        <!--linha 4-->
+        <Button
+                       Grid.Row="4"
+                       Grid.Column="0"
+                       x:Name="Btnlinha40"
+                       HeightRequest="50"
+                       Text="Btnlinha4-0"
+           
+                 />
+        <Button
+                       Grid.Row="4"
+                       Grid.Column="1"
+                       x:Name="Btnlinha41"
+                       HeightRequest="50"
+                       Text="Btnlinha4-1"
+           
+                 />
+        <Button
+                       Grid.Row="4"
+                       Grid.Column="2"
+                       x:Name="Btnlinha42"
+                       HeightRequest="50"
+                       Text="Btnlinha4-2"
+           
+                 />
+        <!--fim linha 4-->
+    </Grid>
+
+</ContentPage>

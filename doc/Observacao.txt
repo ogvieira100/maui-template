@@ -1,0 +1,60 @@
+layout 
+
+stack, absolute, grid, flex
+
+stack:. organizam elementos em pilha horizontal ou verticalmente 
+
+temos tipos de paginas de conteudo diferente:. 
+
+1º Content Page -> pagina simples de conteudo 
+2º FlyoutPage -> pagina com menu lateral arrastavel
+3º TabbledPage -> conteudo com abas
+
+depois que apresentamos os tipos de paginas vamos aos layouts 
+
+1º StackLayout famoso pilha ele vai empilhando elementos dentro de elementos  
+uma propriedade interessante é a orientação Orientation="Vertical" ou horizontal
+ <StackLayout VerticalOptions="CenterAndExpand" Spacing="5" >
+ podemos cetralizar verticalmente e colocar espaco entre os elementos 
+
+ propriedades importantes para redimensionar o elemento 
+
+   HorizontalOptions="FillAndExpand"
+   VerticalOptions="FillAndExpand"
+
+No Layout Absoluto as coordenadas se posicionam da seguinte forma 
+
+eixo x,y
+
+largura e altura w,h
+
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Birulo.AbsoluteLayoutDemo"
+             Title="AbsoluteLayoutDemo"
+             BackgroundColor="Red"
+             >
+    <AbsoluteLayout>
+        <Button
+            Text="Click-Me Btn1"
+            AbsoluteLayout.LayoutBounds="x,y,w,h"
+            
+            ></Button>
+        <Button
+            Text="Click-Me Btn2"
+            
+            ></Button>
+    </AbsoluteLayout>
+</ContentPage>
+
+nesse layout podemos trabalhar com proporcao 
+
+  AbsoluteLayout.LayoutBounds="0,300,250,.10"
+  AbsoluteLayout.LayoutFlags="HeightProportional"
+
+  No caso a altura é proporcional 
+
+  No Flex layout alinhamento por coluna empilha os elementos seja acima ou abaixo
+  e o de linha seja esquerda ou direita
+

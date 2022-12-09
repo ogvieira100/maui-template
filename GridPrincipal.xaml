@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Birulo.GridPrincipal"
+             Title="GridPrincipal">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"  />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto"  />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition  />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                
+                <!--Linha 1-->
+                <Button
+                       Grid.Row="1"
+                       Grid.Column="0"
+                       x:Name="FlyoutPageBtn"
+                       HeightRequest="50"
+                       Text="FlyoutPage"
+                       Clicked="FlyoutPageBtn_Clicked"
+                 />
+
+                <Button
+                        HeightRequest="50"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        x:Name="ContentPage"
+                        Text="ContentPage"
+                        Clicked="ContentPage_Clicked"
+                 />
+                 <!--Fim Linha 1-->
+                 <!--Linha 2-->
+                <Button
+                        HeightRequest="50"
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        x:Name="TabbletPage"
+                        Text="TabbletPage"
+                        Clicked="TabbletPage_Clicked"
+                 />
+                <Button
+                        HeightRequest="50"
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        x:Name="StackLayoutPage"
+                        Text="StackLayoutPage"
+                        Clicked="StackLayoutPage_Clicked"
+                 />
+             <!--Fim Linha 2-->
+
+            <!--Linha 3-->
+            <Button
+                            HeightRequest="50"
+                            Grid.Row="3"
+                            Grid.Column="0"
+                            x:Name="GridPageDemo"
+                            Text="GridPageDemo"
+                            Clicked="GridPageDemo_Clicked"
+                        />
+            <Button
+                            HeightRequest="50"
+                            Grid.Row="3"
+                            Grid.Column="1"
+                            x:Name="AbsolutLayoutDemo"
+                            Text="AbsolutLayoutDemo"
+                            Clicked="AbsolutLayoutDemo_Clicked"
+                            
+                        />
+            <!--Fim Linha 3-->
+        <!--Linha 4-->
+        <Button
+                            HeightRequest="50"
+                            Grid.Row="4"
+                            Grid.Column="0"
+                            x:Name="FlexLayout"
+                            Text="FlexLayoutDemo"
+                            Clicked="FlexLayout_Clicked"
+                        />
+       
+        <!--Fim Linha 4-->
+    </Grid>
+</ContentPage>
