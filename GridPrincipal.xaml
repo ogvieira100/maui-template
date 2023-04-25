@@ -9,7 +9,11 @@
                     <RowDefinition Height="auto" />
                     <RowDefinition Height="auto"  />
                     <RowDefinition Height="auto" />
-                </Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition  />
                     <ColumnDefinition />
@@ -17,7 +21,7 @@
                 
                 <!--Linha 1-->
                 <Button
-                       Grid.Row="1"
+                       Grid.Row="0"
                        Grid.Column="0"
                        x:Name="FlyoutPageBtn"
                        HeightRequest="50"
@@ -27,7 +31,7 @@
 
                 <Button
                         HeightRequest="50"
-                        Grid.Row="1"
+                        Grid.Row="0"
                         Grid.Column="1"
                         x:Name="ContentPage"
                         Text="ContentPage"
@@ -37,7 +41,7 @@
                  <!--Linha 2-->
                 <Button
                         HeightRequest="50"
-                        Grid.Row="2"
+                        Grid.Row="1"
                         Grid.Column="0"
                         x:Name="TabbletPage"
                         Text="TabbletPage"
@@ -45,7 +49,7 @@
                  />
                 <Button
                         HeightRequest="50"
-                        Grid.Row="2"
+                        Grid.Row="1"
                         Grid.Column="1"
                         x:Name="StackLayoutPage"
                         Text="StackLayoutPage"
@@ -56,7 +60,7 @@
             <!--Linha 3-->
             <Button
                             HeightRequest="50"
-                            Grid.Row="3"
+                            Grid.Row="2"
                             Grid.Column="0"
                             x:Name="GridPageDemo"
                             Text="GridPageDemo"
@@ -64,7 +68,7 @@
                         />
             <Button
                             HeightRequest="50"
-                            Grid.Row="3"
+                            Grid.Row="2"
                             Grid.Column="1"
                             x:Name="AbsolutLayoutDemo"
                             Text="AbsolutLayoutDemo"
@@ -75,13 +79,99 @@
         <!--Linha 4-->
         <Button
                             HeightRequest="50"
-                            Grid.Row="4"
+                            Grid.Row="3"
                             Grid.Column="0"
                             x:Name="FlexLayout"
                             Text="FlexLayoutDemo"
                             Clicked="FlexLayout_Clicked"
                         />
-       
+
+        <Button
+                            HeightRequest="50"
+                            Grid.Row="3"
+                            Grid.Column="1"
+                            x:Name="HorStackLayout"
+                            Text="HorizontalStackLayout"
+                            Clicked="HorStackLayout_Clicked"
+                        />
+
         <!--Fim Linha 4-->
+        <!--Linha 5-->
+        <Button
+                            HeightRequest="50"
+                            Grid.Row="4"
+                            Grid.Column="0"
+                            x:Name="VerStackLayout"
+                            Text="VerticalStackLayout"
+                            Clicked="VerStackLayout_Clicked"
+                        />
+
+        <Button
+                            HeightRequest="50"
+                            Grid.Row="4"
+                            Grid.Column="1"
+                            x:Name="ControlsPresentention"
+                            Text="Controles de Apresentação"
+                            Clicked="ControlsPresentention_Clicked"
+                        />
+        <!--Fim Linha 5-->
+        <!--Linha 6-->
+        <Button
+                            HeightRequest="50"
+                            Grid.Row="5"
+                            Grid.Column="0"
+                            x:Name="CommandsControls"
+                            Text="CommandsControls"
+                            Clicked="CommandsControls_Clicked"
+                        />
+
+        <Button
+                            HeightRequest="50"
+                            Grid.Row="5"
+                            Grid.Column="1"
+                            x:Name="InputControls"
+                            Text="InputControls"
+                            Clicked="InputControls_Clicked"
+                        />
+        <!--Fim Linha 6-->
+        <!--Linha 7-->
+        <Button
+                            HeightRequest="50"
+                            Grid.Row="6"
+                            Grid.Column="0"
+                            x:Name="TextControls"
+                            Text="TextControls"
+                            Clicked="TextControls_Clicked"
+                        />
+
+        <Button
+                            HeightRequest="50"
+                            Grid.Row="6"
+                            Grid.Column="1"
+                            x:Name="ActivityControls"
+                            Text="ActivityControls"
+                            Clicked="ActivityControls_Clicked"
+                        />
+
+
+
+        <!--Fim Linha 7-->
+
+        <!--Linha 8-->
+        <Button
+                            HeightRequest="50"
+                            Grid.Row="7"
+                            Grid.Column="0"
+                            x:Name="CollectionsControls"
+                            Text="CollectionsControls"
+                            Clicked="CollectionsControls_Clicked"
+                        />
+
+      
+
+
+
+        <!--Fim Linha 8-->
+
     </Grid>
 </ContentPage>

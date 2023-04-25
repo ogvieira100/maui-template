@@ -9,7 +9,7 @@
         <Button
             Text="Click-Me Btn1"
             AbsoluteLayout.LayoutBounds="0,300,250,.50"
-            AbsoluteLayout.LayoutFlags="HeightProportional"
+            AbsoluteLayout.LayoutFlags="SizeProportional,XProportional"
             
             ></Button>
         <Button
